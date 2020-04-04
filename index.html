@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>    
+</head>
+<body>
+  <form>
+
+    <fieldset class="checkbox"> Alles klar? <br> 
+
+      <input type="checkbox" id="1" name="1" value="A">
+      <label for="1"> Ja, total</label><br>
+    <input type="checkbox" id="2" name="2" value="B">
+    <label for="2"> Geht so</label><br>
+    <input type="checkbox" id="3" name="3" value="C">
+    <label for="3"> ne gar nicht.</label><br><br>
+      
+    
+
+</fieldset>
+<fieldset class="file">
+
+  <input type="file"
+  id="avatar" name="avatar"
+  accept="image/png, image/jpeg">
+
+</fieldset>
+<fieldset class="url">
+
+  <label for="url">Enter an https:// URL:</label>
+
+  <input type="url" name="url" id="url"
+  placeholder="https://example.com"
+  pattern="https://.*" size="30"
+  required>
+  
+</fieldset>
+  
+
+<fieldset class="textarea">  
+  
+  <textarea rows="4" cols="40" id="comment"  placeholder="Enter your comment here..." ></textarea> 
+  
+</fieldset>
+
+<div class="button">
+  <button type="submit">Submit </button>
+</div>
+</form>
+
+</body>
+</html>

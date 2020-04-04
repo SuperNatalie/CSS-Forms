@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to bottom left, rgb(177, 52, 95), rgb(34, 8, 70));
+    font-size: 1.3em;
+}
+
+input, textarea {
+    font: inherit; 
+}
+
+/* labels untereinander */
+/* label {
+    display: block;
+} */
+
+fieldset {
+    width: 70vw;
+    height: 20vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5vh;
+    border-radius: 8px;
+    background-color:white;
+    color: rgb(36, 74, 80);
+    box-shadow: 0 0 15px #333;
+}
+
+
+input, label {
+    margin-top: 3vh;
+}
+
+
+input[type="url"] {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+}
+
+button {
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin: 5vh;
+    margin-left: 45%;
+}
